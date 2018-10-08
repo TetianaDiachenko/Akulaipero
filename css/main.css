@@ -1,9 +1,48 @@
-/* body {
+body {
     position: relative; 
 }
 
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+.header {
+ overflow: hidden;
+ position: fixed;}
+
+
+#section1 {padding-top:50px;height:800px;color: #fff; }
 #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;} */
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+#section1  {background-image: url("../img/fon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-position: center center;
+background-color:#464646;}
+
+
+.main {
+text-align: center;
+margin-top: 30%;
+  color: #fff;
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+#section1 {
+   background-image: url("../img/fonmob.jpg");
+   height:500px;
+   background-attachment: scroll;
+   background-size:  auto 100%;
+  }
+	}
+  
+ 
+
