@@ -16,17 +16,17 @@
 			<div class="row">
 				<div class="col-5">
 					<a href="" class="header__logo">
-						<img src="img/logo.jpg" alt="Akulaipero">
+						<img src="img/logo.jpg" alt="Akulaipero" height="100">
 					</a>
 				</div>
 				<div class="col-7">
 					<nav class="navbar navbar-fixed-top ">
 						<ul class="header__menu">
-							<li><a href="#section1">Кто мы</a></li>
-							<li><a href="#section2">Как это работает</a></li>
-							<li><a href="#section3">Автор курса</a></li>
-							<li><a href="#section4">Стоимость</a></li>
-							<li><a href="#"></a>Join us!</li>
+							<li><a href="#">Главная</a></li>
+							<li><a href="#section1">О курсе</a></li>
+							<li><a href="#section2">Наши цели</a></li>
+							<li><a href="#section3">Наши ученики</a></li>
+							<li><a href="#section4">Контакты</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -36,7 +36,7 @@
 
 	<section id="section1">
 		<div class="container">
-			
+			<p class="main">Курс онлайн-журналистики</p>
 		</div>
 	</section>
 
@@ -53,6 +53,13 @@
 	</section>
 
 	<footer id="section4">
+
+		<form id="application" action=" application.php" method="POST" name=" application ">
+   <input name="name" id="applicationName" maxlength="20" placeholder="Имя" required />
+   <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="E-mail" required />
+   <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Телефон" required/>
+   <button class="applicationButton" type="submit" form="application">Мне интересно! Свяжитесь со мной! </button>
+</form>
 		
 	</footer>
 
