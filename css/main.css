@@ -3,30 +3,41 @@ body {
 }
 
 .header {
- overflow: hidden;
- position: fixed;}
-
+  overflow: hidden;
+  position: fixed;
+}
 
 #section1 {padding-top:50px;height:800px;color: #fff; }
-#section2 {padding-top:50px;height:500px;color: black; }
+#section2 {padding-top:50px;height:500px;}
 #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
 #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
 #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
 
-#section1  {background-image: url("../img/fon.jpg");
+#section1 {
+  background-image: url("../img/fon.jpg");
 	background-size: cover;
 	background-repeat: no-repeat; 
 	background-attachment: fixed;
 	background-position: center center;
-background-color:#464646;}
-
+  background-color:#464646;
+}
 
 .main {
-text-align: center;
-margin-top: 15%;
+  text-align: center;
+  margin-top: 15%;
   color: #fff;
   font-size: 4rem;
+  font-family: "Roboto",sans-serif;
   text-shadow: 1px 1px 5px #363434;
+}
+
+h1 {
+  font-family: "Roboto",sans-serif;
+  color: #2484a8;
+}
+
+p {
+  font-family: "Roboto",sans-serif;
 }
 
 .flexcontainer {
@@ -37,30 +48,29 @@ margin-top: 15%;
 	flex-basis: auto auto auto auto 900px;
 }
 
-.box
-{
+.box {
   width: 400px;
   height: auto;
-margin-left:300px;}
+  margin-left:200px;
+}
 
-.box5
-{
-  width: 800px;
+.box5 {
+  width: 900px;
   height: auto;
-margin-left:300px;
-text-align: center;}
-
+  margin-left:350px;
+  text-align: center;
+}
 
 
 @media only screen and (max-width: 767px) {
 
-#section1 {
-   background-image: url("../img/fonmob.jpg");
-   height:500px;
-   background-attachment: scroll;
-   background-size:  auto 100%;
+  #section1 {
+    background-image: url("../img/fonmob.jpg");
+    height:500px;
+    background-attachment: scroll;
+    background-size:  auto 100%;
   }
-	}
+}
   
  
 
