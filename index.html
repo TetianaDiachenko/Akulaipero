@@ -10,7 +10,7 @@
 
 
 
-<body data-spy="scroll" data-target="navbar" data-offset="50">
+<body data-spy="scroll" data-target="nav" data-offset="100">
 	<header class="header">
 		<div class="container">
 			<div class="row">
@@ -18,15 +18,30 @@
 					<a href="" class="header__logo">
 						<img src="img/logo.jpg" alt="Akulaipero" height="100">
 					</a>
+					<span class="header__motto">
+						Дела идут – акула пишет
+					</span>
 				</div>
+
 				<div class="col-7">
-					<nav class="navbar navbar-fixed-top ">
-						<ul class="header__menu">
-							<li><a href="#">Главная</a></li>
-							<li><a href="#section1">О курсе</a></li>
-							<li><a href="#section2">Наши цели</a></li>
-							<li><a href="#section3">Наши ученики</a></li>
-							<li><a href="#section4">Контакты</a></li>
+					<nav class="nav">
+						<ul class="nav__menu d-flex justify-content-between">
+							<li class="nav__menu__item">
+							<li class="nav__menu__item">
+								<a href="#section1">Кто мы</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section2">Как это работает</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section3">Автор курса</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section4">Стоимость</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section5">Join us!</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
@@ -77,14 +92,19 @@
 	
 	</section>
 
-
 	<section id="section3">
 		<div class="container">
 			
 		</div>
 	</section>
+
+	<section id="section4">
+		<div class="container">
+			
+		</div>
+	</section>
 	
-	<footer id="section4">
+	<footer id="section5">
 		<form id="application" action=" application.php" method="POST" name=" application ">
    			<input name="name" id="applicationName" maxlength="20" placeholder="Имя" required />
    			<input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="E-mail" required />
