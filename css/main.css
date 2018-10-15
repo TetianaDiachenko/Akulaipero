@@ -1,9 +1,148 @@
 body {
-    position: relative; 
+  position: relative; 
+  font-family: "Roboto", sans-serif;
+  /*max-width: 1366px;*/
 }
 
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+ul, li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  /* overflow: hidden; */
+  position: fixed;
+  width: 100%;
+  background-color: #edeef0;
+  z-index: 1;
+}
+.header__motto {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav__menu__item a{
+  font-weight: bold;
+  font-size: 16px;
+  color: #2484a8;
+}
+
+
+#section1 {padding-top:100px; height:800px;color: #fff; }
+#section2 {padding-top:50px;}
+#section3 {padding-top:50px;}
+#section41 {padding-top:100px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:100px;height:500px;color: #fff; background-color: #009688;}
+#section5 {padding-top:50px;}
+
+
+#section1 {
+  background-image: url("../img/fon.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	background-position: center center;
+  background-color:#464646;
+}
+
+.main {
+  text-align: center;
+  margin-top: 5%;
+  color: #fff;
+  font-size: 4rem;
+  text-shadow: 1px 1px 5px #363434;
+}
+
+h1 {
+  color: #2484a8;
+  font-size: 34px;
+}
+
+h2 {
+  color: #2484a8;
+  font-size: 28px;
+}
+
+p {
+  font-size: 18px;
+  color:#222225;
+} 
+
+.flexcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  max-width: 1400px;
+  margin-bottom: 50px;
+}
+
+.box {
+  width: 500px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.box5 {
+  height: auto;
+  text-align: center;
+}
+
+.flexcontainer img {
+  float: left;
+  margin-right: 30px;
+}
+
+.flexcontainer p {
+margin-top:30px;  
+}
+
+#section3 {
+  background-image: url("../img/screen3.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  background-position: center center;
+  background-color:#464646;
+}
+
+.table1 {
+  background-color: #fff;
+  width: 400px;
+  border: 2px solid #2484a8;
+  padding: 20px;
+  display: block;
+}
+
+.table2 {
+  background-color: #fff;
+  width: 400px;
+  border: 2px solid #2484a8;
+  padding: 20px;
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 767px) {
+
+  #section1 {
+    background-image: url("../img/fonmob.jpg");
+    height:500px;
+    background-attachment: scroll;
+    background-size:  auto 100%;
+  }
+}
+  
+ 
+

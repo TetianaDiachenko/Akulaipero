@@ -10,23 +10,38 @@
 
 
 
-<body data-spy="scroll" data-target="navbar" data-offset="50">
+<body data-spy="scroll" data-target="nav" data-offset="100">
 	<header class="header">
 		<div class="container">
 			<div class="row">
 				<div class="col-5">
 					<a href="" class="header__logo">
-						<img src="img/logo.jpg" alt="Akulaipero">
+						<img src="img/logo.jpg" alt="Akulaipero" height="100">
 					</a>
+					<span class="header__motto">
+						Дела идут – акула пишет
+					</span>
 				</div>
+
 				<div class="col-7">
-					<nav class="navbar navbar-fixed-top ">
-						<ul class="header__menu">
-							<li><a href="#">Главная</a></li>
-							<li><a href="#section1">О курсе</a></li>
-							<li><a href="#section2">Наши цели</a></li>
-							<li><a href="#section3">Наши ученики</a></li>
-							<li><a href="#section4">Контакты</a></li>
+					<nav class="nav">
+						<ul class="nav__menu d-flex justify-content-between">
+							<li class="nav__menu__item">
+							<li class="nav__menu__item">
+								<a href="#section1">Кто мы</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section2">Как это работает</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section3">Автор курса</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section4">Стоимость</a>
+							</li>
+							<li class="nav__menu__item">
+								<a href="#section5">Join us!</a>
+							</li>
 						</ul>
 					</nav>
 				</div>
@@ -36,31 +51,90 @@
 
 	<section id="section1">
 		<div class="container">
-			
+			<p class="main">Курс онлайн-журналистики</p>
 		</div>
 	</section>
 
 	<section id="section2">
 		<div class="container">
+			<div class="flexcontainer">
 			
+			<div class="box5">
+				<h1> Мы – школа пишущих профессий «Акула и Перо» </h1>
+				<p> У нас учатся будущие журналисты, копирайтеры, PR-менеджеры и все, кто стремится создавать интересные статьи. Хотите нырнуть в самые глубины моря информации и стать настоящей Акулой Пера?</p>
+
+			<h2> У нас вы научитесь:</h2>
+			</div>
+		
+			<div class="box">
+				<span> <img src="img/icon1.png">
+				<p>Писать новости, статьи, интервью, которые будут читать</p>
+			</div>
+		
+			<div class="box">
+				<img src="img/icon2.png">
+				<p>Структурировано излагать мысли</p>
+			</div>
+		
+			<div class="box">
+				<img src="img/icon3.png">
+				<p>Находить экспертов по всему миру</p>
+			</div>
+		
+			<div class="box">
+				<img src="img/icon4.png">
+				<p>Отличать правду от фейка</p>
+			</div>
+			
+			<div class="box">
+				<img src="img/icon5.png">
+				<p>Зарабатывать на этом</p>
+			</div>
+
 		</div>
+		</div>
+	
 	</section>
 
 	<section id="section3">
 		<div class="container">
-			
+			<div class="table1">
+<ul> <h2>Основные блоки курса:</h2>
+<li> <p>«Основы профессии»</p></li>
+<li> <p>«Новостная журналистика»</p></li>
+<li> <p>«Объяснительная журналистика»</p></li>
+<li> <p>«Аналитическая статья»</p></li>
+<li> <p>«Интервью»</p></li>
+</ul>
+
+			</div>
+
+			<div class="table2">
+				<ul><h2>По итогам обучения вы получите:</h2>
+<li> <p>«Основы профессии»</p></li>
+<li> <p>«Новостная журналистика»</p></li>
+<li> <p>«Объяснительная журналистика»</p></li>
+<li> <p>«Аналитическая статья»</p></li>
+<li> <p>«Интервью»</p></li>
+</ul>
+			</div>
 		</div>
 	</section>
 
-	<footer id="section4">
-
+	
+	<section id="section4">
+		<div class="container">
+			
+		</div>
+	</section>
+	
+	<footer id="section5">
 		<form id="application" action=" application.php" method="POST" name=" application ">
-   <input name="name" id="applicationName" maxlength="20" placeholder="Имя" required />
-   <input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="E-mail" required />
-   <input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Телефон" required/>
-   <button class="applicationButton" type="submit" form="application">Мне интересно! Свяжитесь со мной! </button>
-</form>
-		
+   			<input name="name" id="applicationName" maxlength="20" placeholder="Имя" required />
+   			<input name="email" type="email" id="applicationEmail" maxlength="20" placeholder="E-mail" required />
+   			<input name="telephone" type="Tel" id="applicationTelephone" maxlength="20" placeholder="Телефон" required/>
+   			<button class="applicationButton" type="submit" form="application">Мне интересно! Свяжитесь со мной! </button>
+		</form>	
 	</footer>
 
 </body>
