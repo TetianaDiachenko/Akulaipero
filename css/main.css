@@ -108,12 +108,12 @@ a, a:hover, a:visited, a:focus {
 }                          
                                   /* Конец МОБ МЕНЮ*/
 
-#section1 {padding-top:100px; height:800px;color: #fff; }
-#section2 {padding-top:50px;}
-#section3 {padding-top:50px;}
-#section41 {padding-top:100px;height:500px;color: #fff; background-color: #00bcd4;}
-#section42 {padding-top:100px;height:500px;color: #fff; background-color: #009688;}
-#section5 {padding-top:50px; height:500px;}
+#section1 {padding-top:80px; height:800px;color: #fff; }
+#section2 {padding-top:80px;}
+#section3 {padding-top:80px;}
+#section41 {padding-top:80px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:80px;height:500px;color: #fff; background-color: #009688;}
+#section5 {padding-top:80px; height:500px;}
 
 
 #section1 {
@@ -275,9 +275,6 @@ p.bullet:before {
   .nav__menu__item {
     padding-left: 16px;
   }
-  .header__motto {
-    font-size: 25px;
-  }
 }
 @media only screen and (max-width: 991px) {
   .none {
@@ -287,6 +284,9 @@ p.bullet:before {
     display: block;
     text-align: right;    
     padding-right: 0;
+  }
+  .header__motto {
+    font-size: 25px;
   }
 }
 @media only screen and (max-width: 768px) {
