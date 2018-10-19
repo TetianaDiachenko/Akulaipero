@@ -1,7 +1,6 @@
 body {
   position: relative; 
   font-family: "Roboto", sans-serif;
-  /*max-width: 1366px;*/
 }
 
 ul, li {
@@ -10,8 +9,16 @@ ul, li {
   margin: 0;
 }
 
+a, a:hover, a:visited, a:focus {
+  text-decoration: none;
+}
+
+.left_right_0 {    
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .header {
-  /* overflow: hidden; */
   position: fixed;
   width: 100%;
   background-color: #edeef0;
@@ -19,23 +26,87 @@ ul, li {
 }
 .header__motto {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding-left: 15px;
 }
-
+.nav {
+  padding-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
 .nav__menu {
   display: flex;
-  justify-content: space-between;
-
 }
-
+.nav__menu__item { 
+  padding-left: 23px;  
+}
 .nav__menu__item a{
+  display: block;
   font-weight: bold;
   font-size: 16px;
   color: #2484a8;
 }
-
+.nav__menu__item a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+                              /* МОБ МЕНЮ*/
+.mobil_nav {
+  display: none;
+  z-index: 3;
+}
+.mobil_nav__button {
+  font-size: 50px;
+  font-weight: 900;
+  cursor:pointer;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgba(36,132,168, 1);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus {
+    color: #000;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}                          
+                                  /* Конец МОБ МЕНЮ*/
 
 #section1 {padding-top:100px; height:800px;color: #fff; }
 #section2 {padding-top:50px;}
@@ -196,7 +267,29 @@ p.bullet:before {
   text-align: left;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
+  .header__motto {
+    font-size: 16px;
+    padding-left: 0;
+  }
+  .nav__menu__item {
+    padding-left: 16px;
+  }
+  .header__motto {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .none {
+    display: none;  
+  }
+  .mobil_nav {
+    display: block;
+    text-align: right;    
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
 
   #section1 {
     background-image: url("../img/fonmob.jpg");
