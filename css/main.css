@@ -300,6 +300,16 @@ p.bullet:before {
   background-attachment: fixed;
   background-position: center center;}
 
+
+#mc_embed_signup .mc-field-group {
+    padding-bottom: 3%;
+    min-height: 50px;
+    margin: 15px auto;
+    width: 60%;
+    height: 40px;
+}
+
+
 .form {
   width: 70%;
   margin: 0 auto;
