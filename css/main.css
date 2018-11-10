@@ -114,7 +114,7 @@ a, a:hover, a:visited, a:focus {
 #section3 {padding-top:100px;}
 #section41 {padding-top:100px;}
 #section42 {padding-top:100px; padding-bottom: 50px;}
-#section5 {padding-top:50px; height:500px;}
+#section5 {padding-top:100px; height:500px;}
 
 
 #section1 {
@@ -300,50 +300,39 @@ p.bullet:before {
   background-attachment: fixed;
   background-position: center center;}
 
-
+                                  /* Form*/                                  
+#mc_embed_signup {
+  background: none;
+}
 #mc_embed_signup .mc-field-group {
-    padding-bottom: 3%;
-    min-height: 50px;
-    margin: 15px auto;
-    width: 60%;
-    height: 40px;
-}
-
-
-.form {
-  width: 70%;
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-}
-
-.form p{
-  margin-top: 20px;
-}
-
-#application {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-#applicationName, #applicationEmail, #applicationTelephone  {
-   display: block;
-   margin: 0 auto;
-   margin-bottom: 15px;
-   width: 60%;
-   height: 40px;
-}
-
-.applicationButton {
+  padding-bottom: 3%;
+  min-height: 50px;
   width: 60%;
-  margin-bottom: 20px;
+  height: 40px;    
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+#mc_embed_signup_scroll p {
+  text-align: center;
+}
+#mc_embed_signup .indicates-required {
+  margin-right: 20%;
+}
+#mc_embed_signup .button {
+  display: block;    
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+  margin-bottom: 30px;
+  width: 60%;
   background-color: #2484a8;
   color: #fff;
-  border:none;
+  border: none;
   cursor: pointer;
   height: 40px;
 }
+                                  /* End of the Form*/
 
 @media only screen and (max-width: 1200px) {
   .header__motto {
@@ -402,22 +391,17 @@ p.bullet:before {
     transition: none;
   }
 
-.box_flag img:hover  {
+  .box_flag img:hover  {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-}
-
-.form {
-  width: 100%;
-}
-
-#applicationName, #applicationEmail, #applicationTelephone  {
-   width: 90%;
-}
-
-.applicationButton {
-  width: 90%;
-  margin-bottom: 10px;
-  height: 50px;
   }
+
+  #mc_embed_signup .mc-field-group {
+    width: 100%;
+  }
+  #mc_embed_signup .button {
+    width: 100%;
+  }
+}
+

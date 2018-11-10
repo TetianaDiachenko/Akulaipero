@@ -10,7 +10,7 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function($) {
+/*function($) {
 	window.fnames = new Array(); 
 	window.ftypes = new Array();
 	fnames[1]='FNAME';
@@ -20,4 +20,4 @@ function($) {
 	fnames[0]='EMAIL';
 	ftypes[0]='email';
 }(jQuery);
-var $mcj = jQuery.noConflict(true);
+var $mcj = jQuery.noConflict(true);*/
