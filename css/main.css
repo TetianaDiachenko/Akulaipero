@@ -1,7 +1,7 @@
 body {
   position: relative; 
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  /* font-size: 18px; */
   color:#222225;
 }
 ul, li {
@@ -112,11 +112,11 @@ h2 {
 }                          
                                   /* End of the MOB MENU*/
 
-#section2 {padding-top:100px;}
-#section3 {padding-top:100px;}
-#section41 {padding-top:100px;}
-#section42 {padding-top:100px; padding-bottom: 50px;}
-#section5 {padding-top:100px; height:500px;}
+#section2 {padding-top:80px;}
+#section3 {padding-top:80px;}
+#section41 {padding-top:80px;}
+#section42 {padding-top:80px; padding-bottom: 50px;}
+#section5 {padding-top:80px; height:500px;}
 
 #section1 {
   background-image: url("../img/fon.jpg");
@@ -125,7 +125,7 @@ h2 {
 	background-attachment: fixed;
 	background-position: center center;
   background-color:#464646;
-  padding-top:100px; 
+  padding-top:80px; 
   height:800px;
   color: #fff;
 }
@@ -236,7 +236,6 @@ h2 {
 }
 
 .box_flag img {
-   
   transition:all 0.3s ease;
 }
 
@@ -284,7 +283,7 @@ p.bullet:before {
 #mc_embed_signup .mc-field-group {
   padding-bottom: 3%;
   min-height: 50px;
-  width: 60%;
+  width: 50%;
   height: 40px;    
   margin-left: auto;
   margin-right: auto;
@@ -294,7 +293,7 @@ p.bullet:before {
   text-align: center;
 }
 #mc_embed_signup .indicates-required {
-  margin-right: 20%;
+  margin-right: 25%;
 }
 #mc_embed_signup .button {
   display: block;    
@@ -302,7 +301,7 @@ p.bullet:before {
   margin-right: auto;
   margin-top: 65px;
   margin-bottom: 30px;
-  width: 60%;
+  width: 50%;
   background-color: #2484a8;
   color: #fff;
   border: none;
@@ -333,16 +332,19 @@ p.bullet:before {
   .header__motto {
     font-size: 25px;
   }
+  #section1 {
+    height:500px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
 
-  #section1 {
-    background-image: url("../img/fonmob.jpg");
-    height:500px;
-    background-attachment: scroll;
-    background-size:  auto 100%;
-  }
+/*   #section1 {
+  background-image: url("../img/fonmob.jpg");
+  height:500px;
+  background-attachment: scroll;
+  background-size:  auto 100%;
+} */
 
   .table1 {
   margin-left:0;
