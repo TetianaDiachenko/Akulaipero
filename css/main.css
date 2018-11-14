@@ -133,7 +133,6 @@ h2 {
   text-align: center;
   margin-top: 5%;
   color: #fff;
-  /* font-size: 4rem; */
   font-size: 70px;
   text-shadow: 1px 1px 5px #363434;
 }
@@ -212,6 +211,7 @@ h2 {
   content:"\2714"; 
   color: #2484a8;
   display: inline;
+  padding-right: 10px;
 }
 
 #autor {
@@ -312,7 +312,7 @@ p.bullet:before {
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-device-width: 991px) {
   .none {
     display: none;  
   }
@@ -324,55 +324,56 @@ p.bullet:before {
   .header__motto {
     font-size: 25px;
   }
+  .flexcontainer p, #section3 p {
+    font-size: 20px;
+  }
   #section1 {
     height:500px;
   }
+
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-device-width : 300px) and (max-device-width : 768px) {
 
-/*   #section1 {
-  background-image: url("../img/fonmob.jpg");
-  height:500px;
-  background-attachment: scroll;
-  background-size:  auto 100%;
-} */
-
+  #section1 {
+    background-attachment: scroll;
+  }
   .table1 {
   margin-left:0;
   }
-
   .table2 {
     position: inherit;
     display: block;
     margin-top: 30px;
     left: 0px;
   }
-
+  .table1, .table2 {
+    width: 100%;
+  }
+  .table1 h2, .table2 h2 {
+    text-align: center;
+  }
+  #section3 {
+    padding-bottom: 50px;
+  }
   .box {
     margin-left: 10px;
   }
-
-   .box2 {
-  margin-top: 10px;
+  .box2 {
+    margin-left: 90px;
   }
-
-  .box_flag img {
-    width: 30px;
-    transition: none;
+  .flexcontainer p, #section3 p {
+    font-size: 30px;
+    line-height: 60px;
   }
-
-  .box_flag img:hover  {
-  -webkit-transform: none;
-  -ms-transform: none;
-  transform: none;
+  #price {
+    font-size: 30px;
   }
-
   #mc_embed_signup .mc-field-group {
     width: 100%;
   }
   #mc_embed_signup .button {
     width: 100%;
   }
-}
 
+}
