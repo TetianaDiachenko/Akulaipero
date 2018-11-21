@@ -16,11 +16,9 @@ a, a:hover, a:visited, a:focus {
   color: #2484a8;
 }
 h1 {
-  /* font-size: 34px; */
   text-align: center;
 }
 h2 {
-  /* font-size: 28px; */
   text-align: center;
 }
 .header {
@@ -120,9 +118,9 @@ h2 {
 
 #section2 {padding-top:80px;}
 #section3 {padding-top:80px;}
-#section41 {padding-top:80px;}
-#section42 {padding-top:80px; padding-bottom: 50px;}
-#section5 {padding-top:80px; height:610px;}
+#section5 {/* padding-top:80px; */}
+#section6 {padding-top:80px; padding-bottom: 50px;}
+#section7 {padding-top:80px; height:610px;}
 
 #section1 {
   background-image: url("../img/fon.jpg");
@@ -163,7 +161,7 @@ h2 {
   margin-left: 120px;
 }
 .box_autor {
-  margin-top: 30px;
+  margin-top: 10px;
   transition:all 0.3s ease;
 }
 .box:hover, .box_autor:hover  {
@@ -243,14 +241,14 @@ p.bullet:before {
   margin-right: 10px;
   text-align: left;
 }
-#section42 h2 {
+#section6 h2 {
   text-align: center;
 }
 
 #mc_embed_signup h2 {
   text-align: center;
 }
-#section42 .container {
+#section6 .container {
   border: 2px solid #2484a8;
   padding-top: 30px;
 }
@@ -258,7 +256,7 @@ p.bullet:before {
   color: #2484a8;
   font-size: 20px;
 }
-#section5 {
+#section7 {
   background-image: url("../img/footer.jpg");
   background-size: cover;
   background-repeat: no-repeat; 
@@ -305,8 +303,7 @@ p.bullet:before {
 @media only screen and (min-width: 1200px) {
 	.nav__menu__item {
     padding-left: 18px;
-}
-				  
+}	  
 }						  
 @media only screen and (max-width: 1200px) {
   .header__motto {
@@ -338,7 +335,7 @@ p.bullet:before {
   }
 }
 @media only screen and (min-device-width : 300px) and (max-device-width : 768px) {
-  #section1, #section3, #section5 {
+  #section1, #section3, #section7 {
     background-attachment: scroll;
   }
   
@@ -365,7 +362,7 @@ p.bullet:before {
   }
   .box2 {
     margin-left: 60px;
-	margin-top: 100px;
+    margin-top: 80px;
   }
   .flexcontainer p, #section3 p {
     font-size: 36px;
@@ -384,8 +381,8 @@ p.bullet:before {
   #price, #section5 {
     font-size: 38px;
   }
-  #section5 {
-    height: 830px;
+  #section7 {
+    height: 950px;
   }
   #mc_embed_signup .indicates-required {
     font-size: 25px;
@@ -393,7 +390,7 @@ p.bullet:before {
   }
   #mc_embed_signup .mc-field-group {
     width: 80%;
-    margin-bottom: 85px;
+    margin-bottom: 100px;
   }
   #mc_embed_signup .mc-field-group label {
     margin-bottom: 10px;
@@ -402,6 +399,6 @@ p.bullet:before {
     width: 80%;
     font-size: 30px;
     height: 65px;
-    margin-top: 140px;
+    margin-top: 170px;
   }
 }
