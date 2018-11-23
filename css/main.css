@@ -120,7 +120,7 @@ h2 {
 #section3 {padding-top:80px;}
 #section5 {/* padding-top:80px; */}
 #section6 {padding-top:80px; padding-bottom: 50px;}
-#section7 {padding-top:80px; /* height:610px; */}
+#section7 {padding-top:80px; height:610px;}
 
 #section1 {
   background-image: url("../img/fon.jpg");
@@ -324,7 +324,7 @@ p.bullet:before {
     padding-right: 0;
   }
   .header__motto {
-    font-size: 26px;
+    font-size: 28px;
   }
   .flexcontainer p, #section3 p {
     font-size: 20px;
@@ -382,7 +382,7 @@ p.bullet:before {
     font-size: 38px;
   }
   #section7 {
-    /* height: 950px; */
+    height: 950px;
   }
   #mc_embed_signup .indicates-required {
     font-size: 25px;
