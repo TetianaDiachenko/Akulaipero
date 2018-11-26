@@ -296,8 +296,14 @@ p.bullet:before {
   height: 40px;
 }
 #mc_embed_signup #mc-embedded-subscribe-form div.mce_inline_error {
-  margin: 2px 0 1em 150px;
-  
+  margin: 2px 0 1em 150px;  
+}
+
+#mc_embed_signup #mce-success-response {
+  color: #2484a8;
+  text-align: -webkit-center;
+  padding-left: 20%;
+  padding-bottom: 2%;
 }
                                   /* End of the Form*/
 footer {
@@ -316,6 +322,7 @@ footer {
 .social__link__img {
   height: 24px;
 }
+
 @media only screen and (min-width: 1200px) {
 	.nav__menu__item {
     padding-left: 18px;
