@@ -300,6 +300,22 @@ p.bullet:before {
   
 }
                                   /* End of the Form*/
+footer {
+  min-height: 100px;
+  line-height: 100px;    
+  background-color: #edeef0;
+  border-top: 1px solid #2484a8;
+}
+.social {
+  display: -webkit-inline-box;
+  text-align: -webkit-right;
+}
+.social__link {
+  background-color: #2486ad;  
+}
+.social__link__img {
+  height: 24px;
+}
 @media only screen and (min-width: 1200px) {
 	.nav__menu__item {
     padding-left: 18px;
@@ -329,16 +345,28 @@ p.bullet:before {
   .flexcontainer p, #section3 p {
     font-size: 20px;
   }
-  
   #section1 {
     height:500px;
   }
+  footer {
+    font-size: 20px;
+    line-height: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;   
+  }
+  .madeby {
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  .social {
+    text-align: -webkit-center;
+  }
+
 }
 @media only screen and (min-device-width : 300px) and (max-device-width : 768px) {
   #section1, #section3, #section7 {
     background-attachment: scroll;
   }
-  
   .table1 {
   margin-left:0;
   }
@@ -400,5 +428,12 @@ p.bullet:before {
     font-size: 30px;
     height: 65px;
     margin-top: 170px;
+  }
+  footer {
+    font-size: 33px;
+    line-height: 45px;
+  }
+  .social__link__img {
+    height: 32px;
   }
 }
