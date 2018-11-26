@@ -303,7 +303,10 @@ p.bullet:before {
   color: #2484a8;
   text-align: -webkit-center;
   padding-left: 20%;
-  padding-bottom: 2%;
+}
+#mc_embed_signup div.response {
+  margin: 10px 0;
+  padding: 0;
 }
                                   /* End of the Form*/
 footer {
